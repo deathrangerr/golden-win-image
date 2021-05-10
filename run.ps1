@@ -4,7 +4,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 ############################### Installing Spice Agent ####################################################
 
-choco install spice-agent -y
+choco install virtio-drivers -y
 
 ############################### Optimizing ################################################################
 
