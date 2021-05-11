@@ -1,5 +1,5 @@
 ############################### Installing Choco ##########################################################
-
+##https://www.spice-space.org/download/binaries/spice-guest-tools/
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
 ############################### Installing Spice Agent ####################################################
