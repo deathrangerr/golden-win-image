@@ -3,6 +3,8 @@
 
 D:\spice-guest-tool-latest.exe
 
+Start-Sleep -s 120
+
 ############################### Optimizing ################################################################
 
 Set-ItemProperty 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects' -Name VisualFXSetting -Value 3
