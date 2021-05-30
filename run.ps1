@@ -1,6 +1,6 @@
 ############################### Installing Spice Agent ####################################################
-
-D:\spice-guest-tool-latest.exe
+Set-ExecutionPolicy Bypass -Scope Process -Force;
+D:\spice-guest-tool-latest.exe -Force
 
 Start-Sleep -s 120
 
