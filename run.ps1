@@ -1,4 +1,3 @@
-
 ############################### Installing Spice Agent ####################################################
 
 D:\spice-guest-tool-latest.exe
@@ -44,11 +43,11 @@ New-ItemProperty -Path 'HKLM:\SYSTEM\CurrentControlSet\Services\i8042prt\Paramet
 
 Get-LocalUser -Name "Administrator" | Enable-LocalUser
 
-net user Administrator server1011q2w #######Give username and password
+net user Administrator Server1011q2w #######Give username and password
 
-NET USER vadmin "server1011q2w" /ADD
+NET USER vadmin "Server1011q2w" /ADD
 
-WMIC USERACCOUNT WHERE "Name='username" SET PasswordExpires=FALSE
+WMIC USERACCOUNT WHERE "Name='vadmin'" SET PasswordExpires=FALSE
 
 Add-LocalGroupMember -Group "Administrators" -Member "vadmin"
 
@@ -57,4 +56,3 @@ New-ItemProperty -Path 'HKLM:\Software\Policies\Microsoft\Windows NT\Terminal Se
 Install-Package D:\CloudbaseInitSetupx64.msi
 
 shutdown /s
-
